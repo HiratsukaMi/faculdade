@@ -3,9 +3,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-/* Nome: Michelly Hiratsuka Zorzi
+/* 
+Nome: Michelly Hiratsuka Zorzi
 RA: 233.480.712.966
-Semestre: 6º Ccomp */
+Semestre: 6º Ccomp
+*/
 
 using namespace std;
 
