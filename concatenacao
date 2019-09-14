@@ -1,0 +1,40 @@
+/* Michelly Hiratsuka Zorzi
+RA: 233.480.712.966
+Aula: Algoritmo Estrutura de dados avançado
+Dia: 13/09/2019
+6º Semestre*/
+
+#include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string>
+#include <conio.h>
+
+using namespace std;
+
+main(){
+	
+	setlocale(LC_ALL, "Portuguese");
+	
+	int i = 0;
+	int x = 0;
+	string texto;
+	string palavra;
+	
+	printf("Digite quantas palavras deseja inserir: \n");
+	cin >> x;
+	system("cls");
+	
+	for (i = 0; i < x; i++){
+		
+		printf("Digite a palavra desejada: \n");
+		cin >> palavra;
+		texto = texto + " " + palavra;
+		system ("cls");
+		
+	}
+	
+	printf("O texto que você inseriu é: \n\n");
+	cout << texto;
+	cout << endl;
+}
